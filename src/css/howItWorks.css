@@ -1,0 +1,32 @@
+.cover-bg{
+    background: linear-gradient(90deg, #FEFAE0, #E2DAD6, #D1E9F6);
+}
+
+.investment-option-box{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: ease all 1.5s;
+    border-bottom: 5px solid #3A1078;
+
+}
+
+@media (max-width: 600px){
+    .pc-image{
+      width: 400px;
+    }
+  
+}
+
+@media (max-width: 430px){
+    .pc-image{
+      width: 300px;
+    }
+  
+}
+
+@media (max-width: 350px){
+    .pc-image{
+      display: none;
+    }
+  
+}
+  
