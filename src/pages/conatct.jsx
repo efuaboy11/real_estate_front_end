@@ -85,7 +85,7 @@ export const Contact = () =>{
                     <FontAwesomeIcon className="lg-text text-muted" icon={faLocationDot}/>
                     <h4 className="card-title m-text fw-bold my-3 pb-3">Location</h4>
                     <hr />
-                    <p className="card-text  d-lg-block text-muted">1214 Trans Engineering Community Dawaki, Abuja, Amac, FCT</p>
+                    <p className="card-text  d-lg-block text-muted">710, James, Garber Crescent, Dawaki, FCT Abuja</p>
                   </div>
                 </div>
               </div>

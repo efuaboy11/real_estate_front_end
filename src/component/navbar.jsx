@@ -3,6 +3,7 @@ import "../css/navbar.css"
 import { Link, useLocation } from 'react-router-dom';
 import cfcLog from "../img/cfclogo.png"
 import usgbc from "../img/usgbc.png"
+import companyLogo from "../img/EmfordLogoDark.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faBars, faBookBookmark, faChartBar, faHandHoldingDollar, faHouse, faHouseCrack, faMinus, faPhoneVolume, faPlus, faX } from '@fortawesome/free-solid-svg-icons';
 import WhatsAppChatWidget from './whatapp';
@@ -43,14 +44,22 @@ export const Navbar = () => {
             <div className="row">
               <div className="col-xxl-12">
                 <div className="row justify-content-between">
-                  <div className="col-2 py-2">
+                  <div className="col-md-3">
                     <div className='d-flex'>
-                      <FontAwesomeIcon className='cursor-pointer md-text grey-text pt-2 ps-2 pe-4 nav-menu-bar'  onClick={showSidebar} icon={faBars}/>
-                      <p className='navbar-head-text'>EMFORD</p>
+                      <FontAwesomeIcon className='cursor-pointer md-text grey-text pt-4 ps-2 pe-4 nav-menu-bar'  onClick={showSidebar} icon={faBars}/>
+                      <div className='d-flex'>
+                        <img src={companyLogo} alt="" width="100px"/>
+                        <div>
+                          <p className='navbar-head-text'>EMFORD</p>
+                          <p className='font-bold'>CONCEPT LIMITED</p>
+                        </div>
+
+                      </div>
+
                     </div>
                   </div>
 
-                  <div className="col-3">
+                  <div className="col-md-2">
                     <div className="nav-logos">
                       <div className="d-flex justify-content-center">
                         <img src={cfcLog} alt="" width='80px'/>
@@ -62,7 +71,7 @@ export const Navbar = () => {
 
                   </div>
 
-                  <div className="col-7 pt-3">
+                  <div className="col-md-7 pt-3">
                     <div className="nav-links">
                       <div className='pt-1'>
                         <ul className='d-flex justify-content-end'>

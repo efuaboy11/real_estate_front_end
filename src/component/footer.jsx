@@ -8,8 +8,9 @@ import iso from "../img/iso.png"
 import usgbc from "../img/usgbc.png"
 import masterICon from "../img/mastercard.png"
 import visa from "../img/visa.png"
+import companyLogo from "../img/EmfordLogoDark.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowLeft, faArrowRight, faBuildingColumns, faCheck, faCoffee, faEnvelope, faLocation, faPhoneVolume, faQuoteLeft, faQuoteRight } from '@fortawesome/free-solid-svg-icons';
+import { faArrowLeft, faArrowRight, faBuildingColumns, faCheck, faCoffee, faEnvelope, faLocation, faLocationDot, faPhoneVolume, faQuoteLeft, faQuoteRight } from '@fortawesome/free-solid-svg-icons';
 
 
 export const Footer = () => {
@@ -20,30 +21,33 @@ export const Footer = () => {
           <div className='row footer-bars py-4'>
 
             <div className='col-lg-4 col-xxl-3 col-sm-6'>
-              <div>
-                <p className='navbar-head-text'>EMFORD</p>
-                <p className='font-bold'>Investment Firm</p>
+              <div className="d-flex pb-4">
+                <img src={companyLogo} alt="" width="100px"/>
+                <div>
+                  <p className='navbar-head-text'>EMFORD</p>
+                  <p className='font-bold'>Investment Firm</p>
+                </div>
               </div>
             </div>
 
-            <div className='col-lg-4 col-xxl-3 col-sm-6'>
+            <div className='col-lg-4 col-xxl-3 col-sm-6 pt-4'>
               <div className='d-flex'>
                 <p className='navbar-head-text'><FontAwesomeIcon icon={faPhoneVolume}/></p>
-                <p className='pt-2 ps-2'>(+234) 807 902 2633</p>
+                <p className='pt-2 ps-2'>(+234) 813 920 1678</p>
               </div>
             </div>
 
-            <div className='col-lg-4 col-xxl-3 col-sm-6'>
+            <div className='col-lg-4 col-xxl-3 col-sm-6 pt-4'>
               <div className='d-flex'>
                 <p className='navbar-head-text'><FontAwesomeIcon icon={faEnvelope}/></p>
                 <p className='pt-2 ps-2'>iseghohimhene@gmail.com</p>
               </div>
             </div> 
 
-            <div className='col-lg-4 col-xxl-3 col-sm-6'>
+            <div className='col-lg-4 col-xxl-3 col-sm-6 pt-4'>
               <div className='d-flex'>
-                <p className='navbar-head-text'><FontAwesomeIcon icon={faLocation}/></p>
-                <p className='pt-2 ps-2'>33 Adolo College Road</p>
+                <p className='navbar-head-text'><FontAwesomeIcon icon={faLocationDot}/></p>
+                <p className='pt-2 ps-2'>710, James, Garber Crescent, Dawaki, FCT Abuja</p>
               </div>
             </div>
           </div>
