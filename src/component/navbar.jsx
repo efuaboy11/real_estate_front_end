@@ -46,7 +46,7 @@ export const Navbar = () => {
                 <div className="row justify-content-between">
                   <div className="col-md-3">
                     <div className='d-flex'>
-                      <FontAwesomeIcon className='cursor-pointer md-text grey-text pt-4 ps-2 pe-4 nav-menu-bar'  onClick={showSidebar} icon={faBars}/>
+                      <FontAwesomeIcon className='cursor-pointer md-text grey-text pt-4 ps-4 pe-4 nav-menu-bar'  onClick={showSidebar} icon={faBars}/>
                       <div className='d-flex'>
                         <img src={companyLogo} alt="" width="100px"/>
                         <div>

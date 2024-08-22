@@ -51,8 +51,8 @@ export const Screening = () => {
 								<div className='who-we-are-text'>
 									<div>
 										<p className='blue-text'>Our Investment Screening Process</p>
-										<h2 className='grey-text pb-4' data-aos="fade-right" data-aos-duration="1000">Curating a Diverse Portfolio of Opportunities</h2>
-										<p data-aos="fade-right" data-aos-duration="1000"  data-aos-delay="300">Our Investment Team travels nationwide, seeking out promising real estate projects from reputable sponsors. We understand that investment preferences vary, so we strive to bring a diverse array of high-quality opportunities to our platform. We maintain a rigorous selection process, with only about 1 in 20 deals making it to our site. <br /> <br />
+										<h2 className='grey-text pb-4' >Curating a Diverse Portfolio of Opportunities</h2>
+										<p>Our Investment Team travels nationwide, seeking out promising real estate projects from reputable sponsors. We understand that investment preferences vary, so we strive to bring a diverse array of high-quality opportunities to our platform. We maintain a rigorous selection process, with only about 1 in 20 deals making it to our site. <br /> <br />
 											At the heart of our process are rigor and transparency. Our seasoned real estate professionals conduct a thorough screening of both sponsors and their proposed investments. For every offering, we provide a comprehensive checklist, giving investors full visibility into the vetting process and helping them make informed decisions.
 											<br /> <br />
 											Our review process is built on two key pillars:</p>
