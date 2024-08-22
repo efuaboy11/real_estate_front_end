@@ -318,7 +318,7 @@ export const Home = () => {
                 <div >
                   <p className=' font-bold'> Silver Plan</p>
                   <p className='pb-4'>"Elevate your portfolio with Silver and enjoy enhanced benefits and returns."</p>
-                  <p className='md-text font-bold'>Investment Amount: $10,001 - $25,000</p>
+                  <p className='md-text font-bold'> $10,001 - $25,000</p>
                   <p>Return: 4% after 6 months</p>
                   <hr />
 
@@ -326,7 +326,7 @@ export const Home = () => {
                     <li className='pb-2'><FontAwesomeIcon className='green-bg border-radius-50 p-small' icon={faCheck} /> Everything in the Bronze Plan</li>
                     <li className='pb-2'><FontAwesomeIcon className='green-bg border-radius-50 p-small' icon={faCheck} /> Detailed market analysis reports</li>
                     <li className='pb-2'><FontAwesomeIcon className='green-bg border-radius-50 p-small' icon={faCheck} />One-on-one consultation with a financial advisor</li>
-                    
+                    <li className='pb-2'><FontAwesomeIcon className='green-bg border-radius-50 p-small' icon={faCheck} />Access to select high-value property investments</li>                    
                   </ul>
 
                   <div className='py-2 d-flex justify-content-center'>
